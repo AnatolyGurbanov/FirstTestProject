@@ -6,5 +6,12 @@
 import Foundation
 
 enum NetworkConfiguration {
-    static let urlString = "​http://placehold.it/375x150?text="
+    case baseURLString(index: Int)
+    
+    var urlString: URL? {
+        switch self {
+        case .baseURLString(let index):
+            return URL(string: "http://placehold.it/375x150?text=\(index)")
+        }
+    }
 }
