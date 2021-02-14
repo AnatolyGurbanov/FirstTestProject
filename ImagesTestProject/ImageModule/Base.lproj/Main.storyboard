@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N2E-jw-fdN">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2E-jw-fdN">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -26,8 +26,8 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="N2E-jw-fdN" secondAttribute="bottom" id="0j2-xK-1XE"/>
                             <constraint firstItem="N2E-jw-fdN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ksI-8h-7ne"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N2E-jw-fdN" secondAttribute="trailing" id="ol3-xM-mQB"/>
-                            <constraint firstItem="N2E-jw-fdN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zC6-TR-jW3"/>
+                            <constraint firstAttribute="trailing" secondItem="N2E-jw-fdN" secondAttribute="trailing" id="ol3-xM-mQB"/>
+                            <constraint firstItem="N2E-jw-fdN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zC6-TR-jW3"/>
                         </constraints>
                     </view>
                     <connections>
